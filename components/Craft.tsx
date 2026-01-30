@@ -1,6 +1,7 @@
 import React from 'react';
 import { CRAFT_STEPS } from '../constants';
 import { Language } from '../types';
+import craftLabImg from '../src/assets/images/craft-lab.png';
 
 interface Props {
   lang: Language;
@@ -68,7 +69,7 @@ const Craft: React.FC<Props> = ({ lang }) => {
           {/* 1. Background Image with Slow Pan Animation */}
           <div className="absolute inset-0 overflow-hidden">
             <img
-              src="/assets/images/craft-lab.png"
+              src={craftLabImg}
               alt="Lab"
               className="w-full h-full object-cover grayscale opacity-30 scale-110 group-hover/monitor:scale-100 transition-transform duration-[20s] ease-linear"
             />

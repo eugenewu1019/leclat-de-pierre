@@ -1,4 +1,8 @@
 import { NavItem, DessertItem, ChefProfile, ContentText } from './types';
+import betonImg from './src/assets/images/collection-beton.png';
+import ringImg from './src/assets/images/collection-ring.png';
+import churchImg from './src/assets/images/collection-church.png';
+import foundationImg from './src/assets/images/collection-foundation.png';
 
 export const APP_NAME = "L'ÉCLAT DE PIERRE";
 
@@ -40,7 +44,7 @@ export const DESSERTS: DessertItem[] = [
     name: { zh: '作品 No.1：清水模', en: 'Opus No.1: Béton Brut' },
     description: { zh: '黑芝麻慕斯 / 台灣北港花生醬 / 水泥灰竹炭淋面', en: 'Black Sesame Mousse / Beigang Peanut Butter / Concrete Grey Bamboo Charcoal Glaze' },
     ingredients: { zh: '主體：日本九鬼黑芝麻 / 法國依思尼鮮奶油', en: 'Core: Kuki Black Sesame (Japan) / Isigny Ste Mère Cream' },
-    imageUrl: '/assets/images/collection-beton.png',
+    imageUrl: betonImg,
     year: '2023',
     price: 320,
     structure: {
@@ -64,7 +68,7 @@ export const DESSERTS: DessertItem[] = [
     name: { zh: '作品 No.5：年輪', en: 'Opus No.5: Growth Ring' },
     description: { zh: '煙燻威士忌巧克力 / 焦糖榛果 / 木質調香草', en: 'Smoked Whiskey Chocolate / Caramelized Hazelnut / Woody Vanilla' },
     ingredients: { zh: '主體：法芙娜 70% 瓜納拉巧克力 / 麥卡倫 12年', en: 'Core: Valrhona Guanaja 70% / The Macallan 12 Years' },
-    imageUrl: '/assets/images/collection-ring.png',
+    imageUrl: ringImg,
     year: '2024',
     price: 360,
     structure: {
@@ -87,7 +91,7 @@ export const DESSERTS: DessertItem[] = [
     name: { zh: '作品 No.8：光之教堂', en: 'Opus No.8: Church of Light' },
     description: { zh: '白蘭地漬洋梨 / 茉莉花茶慕斯 / 幾何蛋白霜', en: 'Brandy Poached Pear / Jasmine Tea Mousse / Geometric Meringue' },
     ingredients: { zh: '主體：台灣高山茉莉 / 義大利蛋白霜', en: 'Core: Taiwan High Mountain Jasmine / Italian Meringue' },
-    imageUrl: '/assets/images/collection-church.png',
+    imageUrl: churchImg,
     year: '2024',
     price: 340,
     structure: {
@@ -110,7 +114,7 @@ export const DESSERTS: DessertItem[] = [
     name: { zh: '作品 No.0：地基', en: 'Opus No.0: Foundation' },
     description: { zh: '法式千層酥 / 鹽之花焦糖 / 建築結構力學', en: 'Mille-Feuille / Fleur de Sel Caramel / Structural Mechanics' },
     ingredients: { zh: '主體：法國 AOP 蒙泰古奶油 / 日本昭和麵粉', en: 'Core: AOP Montaigu Butter / Showa Flour' },
-    imageUrl: '/assets/images/collection-foundation.png',
+    imageUrl: foundationImg,
     year: 'Classic',
     price: 280,
     structure: {

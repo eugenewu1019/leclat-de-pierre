@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { APP_NAME, HERO_TEXT } from '../constants';
 import { Language } from '../types';
+import heroBg from '../src/assets/images/hero-bg.png';
 
 interface Props {
   lang: Language;
@@ -39,7 +40,7 @@ const Hero: React.FC<Props> = ({ lang }) => {
         <div
           ref={bgRef}
           className="absolute inset-[-10%] bg-cover bg-center w-[120%] h-[120%] opacity-50 grayscale contrast-125 will-change-transform"
-          style={{ backgroundImage: `url('/assets/images/hero-bg.png')` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         />
       </div>
 

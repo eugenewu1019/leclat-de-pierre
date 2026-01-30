@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { CHEF_PROFILE } from '../constants';
 import { Language } from '../types';
+import architectImg from '../src/assets/images/architect-portrait.png';
 
 interface Props {
   lang: Language;
@@ -87,7 +88,7 @@ const Architect: React.FC<Props> = ({ lang }) => {
           <div className="absolute inset-0 bg-zinc-800 transform md:translate-x-12 md:translate-y-12 transition-transform duration-700" />
           <div className="absolute inset-0 overflow-hidden grayscale contrast-125 md:mr-12 md:mb-12">
             <img
-              src="/assets/images/architect-portrait.png"
+              src={architectImg}
               alt="Chef Pierre Lin"
               className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-1000 ease-out"
             />

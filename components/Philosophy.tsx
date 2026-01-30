@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { PHILOSOPHY_CONTENT } from '../constants';
 import { Language } from '../types';
+import philosophyImg from '../src/assets/images/philosophy.png';
 
 interface Props {
   lang: Language;
@@ -47,7 +48,7 @@ const Philosophy: React.FC<Props> = ({ lang }) => {
         <div ref={imageRef} className="md:col-span-5 relative group will-change-transform transition-transform duration-75 ease-out">
           <div className="aspect-[3/4] overflow-hidden bg-zinc-900 relative z-10">
             <img
-              src="/assets/images/philosophy.png"
+              src={philosophyImg}
               alt="Philosophy"
               className="w-full h-full object-cover grayscale opacity-70 group-hover:opacity-90 group-hover:scale-105 transition-all duration-1000 ease-out"
             />
