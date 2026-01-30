@@ -1,6 +1,6 @@
 # L'ÉCLAT DE PIERRE | Edible Architecture
 
-![Project Banner](public/assets/images/hero-bg.png)
+![Project Banner](src/assets/images/hero-bg.png)
 
 > **[Live Demo](https://eugenewu1019.github.io/leclat-de-pierre/)**  
 > *Structural Integrity in Flavor. Aesthetics of Concrete.*
