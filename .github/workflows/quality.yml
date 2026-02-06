@@ -39,8 +39,8 @@ jobs:
       - name: Prettier (non-code files)
         run: |
           npx --yes prettier@3.3.3 --check \
-            "**/*.md" \
-            "**/*.json" \
-            "**/*.yml" \
-            "**/*.yaml" \
-            ".github/**/*"
+            '**/*.md' \
+            '**/*.json' \
+            '**/*.yml' \
+            '**/*.yaml' \
+            '.github/**/*'
