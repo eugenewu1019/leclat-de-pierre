@@ -1,0 +1,15 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github\.com/eugenewu1019/leclat-de-pierre/discussions"
+    },
+    {
+      "pattern": "^https://www\.linkedin\.com/"
+    }
+  ],
+  "aliveStatusCodes": [200, 206, 429],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "5s",
+  "timeout": "10s"
+}
